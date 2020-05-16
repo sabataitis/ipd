@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ipd/static/css/main.a3bac37a.chunk.css",
+    "main.css": "/ipd/static/css/main.861b6546.chunk.css",
     "main.js": "/ipd/static/js/main.84e16134.chunk.js",
     "main.js.map": "/ipd/static/js/main.84e16134.chunk.js.map",
     "runtime-main.js": "/ipd/static/js/runtime-main.acb190ad.js",
@@ -8,15 +8,15 @@
     "static/js/2.bf874e16.chunk.js": "/ipd/static/js/2.bf874e16.chunk.js",
     "static/js/2.bf874e16.chunk.js.map": "/ipd/static/js/2.bf874e16.chunk.js.map",
     "index.html": "/ipd/index.html",
-    "precache-manifest.a8f5a7d26fc9607454e5a8fb0dde0150.js": "/ipd/precache-manifest.a8f5a7d26fc9607454e5a8fb0dde0150.js",
+    "precache-manifest.9b1aadc9fb091bd4dd7124b63265b043.js": "/ipd/precache-manifest.9b1aadc9fb091bd4dd7124b63265b043.js",
     "service-worker.js": "/ipd/service-worker.js",
-    "static/css/main.a3bac37a.chunk.css.map": "/ipd/static/css/main.a3bac37a.chunk.css.map",
+    "static/css/main.861b6546.chunk.css.map": "/ipd/static/css/main.861b6546.chunk.css.map",
     "static/js/2.bf874e16.chunk.js.LICENSE.txt": "/ipd/static/js/2.bf874e16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.acb190ad.js",
     "static/js/2.bf874e16.chunk.js",
-    "static/css/main.a3bac37a.chunk.css",
+    "static/css/main.861b6546.chunk.css",
     "static/js/main.84e16134.chunk.js"
   ]
 }
