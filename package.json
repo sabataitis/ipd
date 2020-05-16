@@ -1,6 +1,6 @@
 {
-  "homepage": "http://sabataitis.github.io/ipd-projektas",
-  "name": "uni-ipd",
+  "homepage": "http://sabataitis.github.io/ipd",
+  "name": "ipd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
