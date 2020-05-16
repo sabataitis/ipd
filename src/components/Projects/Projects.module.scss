@@ -1,0 +1,86 @@
+  .projects__landing {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    .projects__heading {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Chivo", sans-serif;
+      padding: 2em 0;
+      margin: 0 auto;
+      width: 50%;
+      h3 {
+        font-size: 4em;
+        border-bottom: 2px solid #865630;
+      }
+    }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    button{
+        border: none;
+        padding: 1em;
+        margin: 0.5em;
+        opacity: 0.5;
+    }
+    button:hover{
+        opacity: 1;
+    }
+  }
+  }
+  .business__container {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    .container__item:hover .container__overlay {
+      height: 100%;
+    }
+    .container__item {
+      box-shadow: 5px 8px 6px lightgrey;
+      margin: 2em 4em;
+      position: relative;
+      width: 20%;
+@media screen and(max-width: 1300px) {
+      width: 30%;
+}
+@media screen and(max-width: 900px) {
+      width: 50%;
+}
+@media screen and(max-width: 600px) {
+      width: 70%;
+}
+
+      img {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 600px;
+      }
+      .container__overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(161, 188, 172, 0.8);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: 0.5s ease;
+        .overlay__text {
+          font-family: "Chivo", sans-serif;
+          font-size: 2em;
+          color: #f8f8f8;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+      }
+    }
+  }

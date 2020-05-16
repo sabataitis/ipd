@@ -1,0 +1,159 @@
+@media screen and(min-width: 769px) {
+  .team__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    .heading {
+      padding: 2em 0;
+      height: 60vh;
+      background-color: #f8f8f8;
+      .title {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Chivo", sans-serif;
+        padding: 2em 0;
+        h3 {
+          @media screen and(max-width: 1000px) and (min-width: 769px) {
+            font-size: 3em;
+          }
+          width: 80%;
+          line-height: 1.2;
+          text-align: left;
+          font-size: 4em;
+          .company__name {
+            background-color: rgba(161, 188, 172, 0.4);
+          }
+        }
+      }
+      .paragraph {
+        width: 70%;
+        padding: 2em 1em;
+        font-style: italic;
+        font-family: "Maitree", serif;
+        font-size: 1.5em;
+      }
+    }
+    .team {
+      height: 100%;
+      .title {
+        text-transform: uppercase;
+        font-family: "Chivo", sans-serif;
+        padding: 2em 0em;
+        width: 30%;
+        margin: 0 auto;
+        h3 {
+          text-align: center;
+          margin: 0 auto;
+          font-size: 4em;
+          border-bottom: 2px solid #865630;
+        }
+      }
+      .team__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        .team__member {
+          padding: 2em 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .member__name {
+            padding: 1em 0 0.5em 0;
+            font-size: 2em;
+            font-family: "Chivo", sans-serif;
+          }
+          .member__title {
+            font-family: "Maitree", serif;
+            font-size: 1.2em;
+          }
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+// MOBILE MOBILE MOBILE
+
+@media screen and(max-width: 768px) {
+  .team__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    .heading {
+      padding: 2em 0;
+      height: 60vh;
+      background-color: #f8f8f8;
+      .title {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "Chivo", sans-serif;
+        padding: 2em 0;
+        h3 {
+          @media screen and(max-width: 575.98px) {
+            font-size: 2em;
+          }
+          line-height: 1.2;
+          text-align: left;
+          font-size: 3em;
+          .company__name {
+            background-color: rgba(161, 188, 172, 0.4);
+          }
+        }
+      }
+      .paragraph {
+        @media screen and(max-width: 575.98px) {
+          font-size: 1.3em;
+        }
+        padding: 1em 1em;
+        font-style: italic;
+        font-family: "Maitree", serif;
+        font-size: 1.5em;
+      }
+    }
+    .team {
+      height: 100%;
+      .title {
+        text-transform: uppercase;
+        font-family: "Chivo", sans-serif;
+        padding: 2em 0em;
+        h3 {
+          text-align: left;
+          width: 40%;
+          font-size: 2em;
+          border-bottom: 2px solid #865630;
+        }
+      }
+      .team__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        .team__member {
+          padding: 2em 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .member__name {
+            padding: 1em 0 0.5em 0;
+            font-size: 2em;
+            font-family: "Chivo", sans-serif;
+          }
+          .member__title {
+            font-family: "Maitree", serif;
+            font-size: 1.2em;
+          }
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
