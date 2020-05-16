@@ -24,7 +24,7 @@
     }
   }
   .about {
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,7 +34,7 @@
       text-align: center;
       font-family: "Chivo", sans-serif;
       padding: 2em 0;
-      margin: 0 auto;
+      margin: 1em auto;
       width: 40%;
       h3 {
         font-size: 2em;
@@ -57,6 +57,7 @@
         text-align: left;
         font-family: "Chivo", sans-serif;
         padding: 2em 0;
+        margin-top: 1em;
         h3 {
           font-size: 2em;
           border-bottom: 2px solid #865630;
@@ -81,7 +82,6 @@
   .private {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
     .background__projects_private {
       width: 100%;
       background: url("https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80");
@@ -100,7 +100,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100%;
-    height: 100vh;
     .background__projects_business {
       grid-column: 2/3;
       grid-row: 1;
@@ -122,6 +121,7 @@
   .link {
     width: 10%;
     padding: 0.5em 1em;
+    margin: 6em 0em;
     border-left: 1em solid #a1bcac;
     background-size: 200% 200%;
     transition: background-position 1s;
@@ -201,6 +201,7 @@
       }
       width: 30%;
       padding: 0.5em 0;
+      margin: 2em 0;
       border-left: 1em solid #a1bcac;
       background-size: 200% 200%;
       transition: background-position 1s;
@@ -257,9 +258,9 @@
     .about,
     .projects__private,
     .projects__business {
+      height: 100%;
       flex-wrap: wrap;
       flex-flow: row wrap;
-      height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: space-around;

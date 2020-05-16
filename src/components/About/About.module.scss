@@ -87,7 +87,7 @@
     flex-flow: row wrap;
     .heading {
       padding: 2em 0;
-      height: 60vh;
+      height: 100%;
       background-color: #f8f8f8;
       .title {
         text-transform: uppercase;
@@ -130,6 +130,7 @@
         }
       }
       .team__container {
+        max-height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
