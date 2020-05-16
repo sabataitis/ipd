@@ -1,7 +1,7 @@
 # uni final project created with react
 
 ## Project requires yarn
-[*]yarn install
-[*]yarn serve
+yarn install
+yarn serve
 
 ## Deployed at https://sabataitis.github.io/ipd/
