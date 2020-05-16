@@ -9,10 +9,19 @@
       padding: 2em 0;
       margin: 0 auto;
       width: 50%;
+@media screen and(max-width: 600px) {
+      h3 {
+        font-size: 2em;
+        border-bottom: 2px solid #865630;
+      }
+  
+}
+@media screen and(min-width: 600px) {
       h3 {
         font-size: 4em;
         border-bottom: 2px solid #865630;
       }
+}
     }
   .buttons {
     display: flex;
