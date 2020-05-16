@@ -5,7 +5,7 @@ import classes from "./Navigation.module.scss";
 export const Navigation = () => {
   return (
     <div className={classes.navigation}>
-      <Link to="/">
+      <Link to="/ipd-projektas">
         <div className="company-name">
         Clever Solutions
         </div>
